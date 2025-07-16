@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "storeterra" {
 }
  
 resource "azurerm_storage_account" "saterra" {
-    name                     = "terrastorage171503"
+    name                     = "terrasa1715"
     resource_group_name      = azurerm_resource_group.storeterra.name
     location                 = azurerm_resource_group.storeterra.location
     account_tier             = "Standard"
